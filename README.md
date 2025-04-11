@@ -13,7 +13,20 @@ A Laravel-based admin panel for managing categories in a parent-child hierarchy.
 - Reparent children when a category is deleted
 - Admin role protected routes
 
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/manojdadheech/Category-Management.git
+cd Category-Management
+
+composer install
 npm install && npm run dev
+
+cp .env.example .env
+php artisan key:generate
+
 
 create a database in mysql name categary
 
